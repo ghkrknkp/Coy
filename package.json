@@ -1,0 +1,20 @@
+{
+  "name": "coy-discover-workspace",
+  "version": "1.0.0",
+  "description": "Coy Discover Tab — Standalone Prototype (Full Stack React + Node/Express + SQLite)",
+  "private": true,
+  "scripts": {
+    "start:backend": "cd backend && npm start",
+    "dev:backend": "cd backend && npm run dev",
+    "start:frontend": "cd frontend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "build:frontend": "cd frontend && npm run build",
+    "seed": "cd backend && npm run seed",
+    "seed:reset": "cd backend && node database/seed.js --reset",
+    "test:backend": "cd backend && npm test"
+  },
+  "keywords": ["coy", "discover", "dating", "swipe", "sqlite", "react", "tailwind"],
+  "author": "Coy SDE Intern Candidate",
+  "license": "ISC"
+}
+

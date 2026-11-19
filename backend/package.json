@@ -1,0 +1,22 @@
+{
+  "name": "coy-discover-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Coy Discover Tab prototype",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node database/seed.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "uuid": "^11.1.0"
+  },
+  "keywords": ["coy", "discover", "dating", "privacy", "sqlite", "express"],
+  "author": "Coy SDE Intern Candidate",
+  "license": "ISC"
+}
